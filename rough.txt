@@ -1,0 +1,6 @@
+npx expo install --check  (checks if all dependencies are uptodate for build..)
+
+npx supabase db push
+
+eas login
+eas build --platform android --profile preview
